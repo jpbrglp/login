@@ -1,0 +1,49 @@
+si.css
+.corpo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-image: url(https://images.unsplash.com/photo-1546614409-810f10108b74?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTR8fHxlbnwwfHx8fHw%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.login{
+    border: solid 3px black;
+    border-radius: 15px;
+    height:350px;
+    width: 290px;
+    background-color: rgba(255, 255, 255, 0.356);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 0, 0);
+}
+input{
+    margin: 3px;
+    border: solid 2px ;
+    border-radius: 5px;
+    padding: 7px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+    background-color: rgba(255, 255, 255, 0.74);
+}
+input:hover{
+    padding: 11px;
+}
+#enviar{
+    padding: 8px 20px;
+    transition: all 0.3s;
+}
+#enviar:hover{
+    padding: 7px 25px;
+}
